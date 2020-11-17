@@ -2,6 +2,9 @@
 # site:[lat lon conutry satsys]
 # ref :
 #   https://cddis.nasa.gov/Data_and_Derived_Products/CddisArchiveExplorer.html
+## 
+##  written by tmx 2020/11/17 9:59
+###############################################################################
 dict_stations={
 'ABMF':[16.27,-61.53, 'GLP','GREC'],
 'AGG0':[],

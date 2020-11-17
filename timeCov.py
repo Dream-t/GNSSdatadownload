@@ -1,5 +1,10 @@
 
-
+## function for time convert and class switch
+##
+##
+## verification by http://www.gnsscalendar.com/index.html?year=2019
+## written by tmx 2020/11/17 10:01
+##############################################
 ##-------------------------------------------
 ## 年月日转为约化儒略日，没有考虑小时和分钟
 ##
