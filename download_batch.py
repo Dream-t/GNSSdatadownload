@@ -7,7 +7,7 @@
 ##   (MGEX)导航星历，下载MGEX的混合星历
 ##   (MGEX)DCB文件下载是MGEX混合DCB
 ##   (IGS)erp和snx下载的是IGS（组合多个分析中心），默认一周下一个文件
-## usage: python <pyfile> <YYYY> <MM> <DDD> <type> <AC> <ndays>
+## usage: python <pyfile> <YYYY> <MM> <DD> <type> <AC> <ndays>
 ##  
 ##  written by tmx 2020/11/15 23:15
 #####################################################################################################
