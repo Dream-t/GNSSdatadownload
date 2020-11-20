@@ -68,7 +68,7 @@ sitelist1=[]
 
 def main():
     if len(sys.argv)<7:
-        print("usage: python <pyfile> <YYYY> <MM> <DDD> <type> <AC> <ndays>")
+        print("usage: python <pyfile> <YYYY> <MM> <DD> <type> <AC> <ndays>")
         sys.exit()
     year=int(sys.argv[1]);mon=int(sys.argv[2]);day=int(sys.argv[3])
     type=sys.argv[4];      ac=sys.argv[5];   ndays=int(sys.argv[6])
