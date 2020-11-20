@@ -17,7 +17,7 @@ from stations import *
 from timeCov import *
 
 # 下载文件保存路径
-savedir="E:\\Chromedownload\\GREAT-UPD_1.0\\util\\downloaddata\\"
+savedir="E:\\downloaddata\\"
 
 # -k 不进行SSL安全检查 -n 使用.netrc中用户名和密码进行登录 --progress-bar 显示进度条 -L重定向，跟随网址自动跳转 -o 输出到指定文件
 cmd=r"curl -k  -n -c cookiefile  --progress-bar -L  -o "  
@@ -124,7 +124,7 @@ def main():
                 temp=MGXOBS.replace('%SSSS',site)
                 temp=temp.replace('%CCC',dict_stations[site][2])
                 sitelist1.append(temp)
-            print(sitelist1)
+            #print(sitelist1)
             while(ndays>0):
                 url=obsurl.replace("%YYYY",str(year))
                 url=url.replace("%DDD","%03d"%doy)
@@ -134,7 +134,7 @@ def main():
                     furl=url+file
                     sfile=savedir+file
                     cmd_exe=cmd+' '+sfile+' '+furl
-                    print(cmd_exe)
+                    #print(cmd_exe)
                     if os.path.exists(os.path.splitext(sfile)[0]):
                         print("---%s exist in %s"%(file,savedir))
                     else:
